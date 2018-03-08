@@ -1,0 +1,155 @@
+.example {
+}
+
+.container01 {
+  display: grid;
+  grid-template-columns: 40px 70px auto 40px;
+  grid-template-rows: 100px 180px auto;
+  height: 500px;
+  width: 750px;
+}
+
+.container03 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  height: 500px;
+  width: 750px;
+}
+
+.container04 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
+  height: 500px;
+  width: 750px;
+}
+
+.item01 {
+  grid-area: 2 / 3 / 5 / 3;
+  background-color: red;
+}
+
+.item02 {
+  grid-area: 3 / 1 / 3 / 5;
+  background-color: green;
+}
+
+.itema2 {
+  grid-area: 1 / 1 / 5 / 1;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemb2 {
+  grid-area: 1 / 2 / 5 / 2;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemc2 {
+  grid-area: 1 / 3 / 5 / 3;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemd2 {
+  grid-area: 1 / 4 / 5 / 4;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itema1 {
+  grid-area: 1 / 1 / 1 / 1;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemb1 {
+  grid-area: 1 / 2 / 1 / 2;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemc1 {
+  grid-area: 1 / 3 / 1 / 3;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemd1 {
+  grid-area: 1 / 4 / 1 / 4;
+  background-color: grey;
+  margin: 5px;
+}
+
+.iteme1 {
+  grid-area: 2 / 1 / 2 / 1;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemf1 {
+  grid-area: 2 / 2 / 2 / 2;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemg1 {
+  grid-area: 2 / 3 / 2 / 3;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemh1 {
+  grid-area: 2 / 4 / 2 / 4;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemi1 {
+  grid-area: 3 / 1 / 3 / 1;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemj1 {
+  grid-area: 3 / 2 / 3 / 2;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemk1 {
+  grid-area: 3 / 3 / 3 / 3;
+  background-color: grey;
+  margin: 5px;
+}
+
+.iteml1 {
+  grid-area: 3 / 4 / 3 / 4;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemm1 {
+  grid-area: 4 / 1 / 4 / 1;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemn1 {
+  grid-area: 4 / 2 / 4 / 2;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemo1 {
+  grid-area: 4 / 3 / 4 / 3;
+  background-color: grey;
+  margin: 5px;
+}
+
+.itemp1 {
+  grid-area: 4 / 4 / 4 / 4;
+  background-color: grey;
+  margin: 5px;
+}
