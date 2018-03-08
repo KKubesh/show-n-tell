@@ -53,4 +53,5 @@ Overlapping items example:
 
 ![grid4](images/grid4.png)
 
-If you want to learn more about grids in css there is plenty more to discover.
+If you want to learn more about grids in css there is plenty more to discover!
+Get started here https://css-tricks.com/snippets/css/complete-guide-grid/
